@@ -1,70 +1,190 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Long Luu's Personal Site</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="images/favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-    </head>
 
-    <body>
-        <div class="top-container">
-            <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
-            <h1> I'm Long</h1>
-            <h2> a data scientist.</h2>
-            <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
-            <img src="images/mountain.png" alt="cloud-image">
+<head>
+  <meta charset="utf-8">
+  <title>Long Luu</title>
+  <!-- fontawesome -->
+  <script src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"></script>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Custom style -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section id="intro">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand"><img src="images/long-photo.png" class="profile-image"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>       
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Project</a>
+                </li>     
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>                   
+            </ul>
+        </div>   
+        </nav>
+
+        <!-- Intro -->
+        <div class="row">
+        <div class="col-lg-5">
+            <img id="intro-image" src="images/ai_medicine.jpg" alt="">
+        </div>
+        <div class="col-lg-7">
+            <p class="bio">Hello, I'm Long Luu, a Senior Data Scientist at AstraZeneca. working on applying digital technology and state-of-the-art machine leanring to improve health care.</p>
+            <p>Academic career. Columbia, Upenn, Georgetown, CUA</p>
+            </div>            
+        </div>
+      </section>  
+      
+      <!-- Skills -->
+      <section id="skills">
+        <h1 class="skill-heading">My Skills</h1>
+        <div class="row skill-section">
+            <div class="col-lg-3">
+                <img class="skill-image" src="images/coding.png" alt="coding">
+            </div>
+
+            <div class="col-lg-9">
+                <h3 class="skill-title">Programming Languages</h3>
+                <p> I'm proficient in popular programming languages in data science such as Python, R, SQL, Spark 
+                    and some other less popular languages like Matlab and C++.</p>                    
+            </div>
         </div>
 
-        <div class="middle-container">
-            <div class="profile">
-              <img src="images/long-photo.png" alt="Long's photo">
-              <h2>Hello</h2>
-              <p>I'm a Senior Data Scientist at AstraZeneca, working on applying digital technology and state-of-the-art machine leanring to improve health care.</p>
+        <div class="row skill-section">
+            <div class="col-lg-9">
+                <h3 class="skill-title">Data Analytics</h3>
+                <p> </p>                    
+            </div>                
+            <div class="col-lg-3">
+                <img class="skill-image" src="images/data-science.png" alt="coding">
             </div>
-            <hr>
+        </div>
 
-            <div class="skills">
-              <h2>My Skills</h2>
-              <div class="skill-row">
-                <img class="skill-image-left" src="images/coding.png" alt="coding">
-                <h3>Programming Languages</h3>
-                <p> I'm proficient in popular programming languages in data science such as Python, R, SQL, Spark 
-                    and some other less popular languages like Matlab and C++.</p>
-              </div>
-
-              <div class="skill-row">
-                <img class="skill-image-right" src="images/data-science.png" alt="data-science">
-                <h3>Data Science</h3>
-                <p>Machine learning (Supervised and unsupervised, Deep learning), Statistics, Computer vision, 
-                    Time series analysis, Natural language processing, Data analytics, Visualization</p>
-              </div>
-
-              <div class="skill-row">
-                <img class="skill-image-left" src="images/scrum.png" alt="scrum">
-                <h3>Software Development</h3>
-                <p>Git, Cloud computing (AWS, Linux, GCP, Slurm), Jira, Kanban, Srum</p>
-              </div>              
+        <div class="row skill-section">
+            <div class="col-lg-3">
+                <img class="skill-image" src="images/deep-learning.png" alt="coding">
             </div>
-            <hr>
 
-            <div class="contact-me">
-              <h2>Get In Touch</h2>
-              <p class="contact-msg">If you want to get in touch, feel free to send me an email.</p>
-              <a class="btn" href="mailto:thelong20.4@gmail.com">CONTACT ME</a>
+            <div class="col-lg-9">
+                <h3 class="skill-title">Machine Learning & AI</h3>
+                <p> </p>                    
             </div>
+        </div>
+
+        <div class="row skill-section">
+            <div class="col-lg-9">
+                <h3 class="skill-title">Software Development</h3>
+                <p>Git, Cloud computing (AWS, Linux, GCP, Slurm), Jira, Kanban, Srum, VSCode, Unit testing, Integration testing</p>                    
+            </div>                
+            <div class="col-lg-3">
+                <img class="skill-image" src="images/scrum.png" alt="coding">
+            </div>
+        </div>    
+        
+        <div class="row skill-section">
+            <div class="col-lg-3">
+                <img class="skill-image" src="images/web-development.png" alt="coding">
+            </div>
+
+            <div class="col-lg-9">
+                <h3 class="skill-title">Web Development</h3>
+                <p> </p>                    
+            </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <h1 class="project-heading">My Projects</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+            <!-- Indicator buttons -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+       
+            <div class="carousel-inner">
+                <!-- Project 1 -->
+                <div class="carousel-item active">
+                    <h2 class="project-title">Accurate Step Count with Deep Learning</h2>
+                    <p class="project-paragraph">Physical activity (PA) is globally recognized as a pillar of general health. Step count, as one measure of PA,
+                        is a well known predictor of long-term morbidity and mortality. Here I show that by using state-of-the-art neural network
+                        algorithms, I can achieve highly accurate step counts (98-99%) from diverse types of wearable and mobile devices. If you are interested,
+                        please find more details <a href="https://www.mdpi.com/1424-8220/22/11/3989">here</a>.
+                    </p>
+                    <img class="project-image" src="images/personalized_model.png" alt="personalized_model">
+                </div>
+
+                <!-- Project 2 -->
+                <div class="carousel-item">
+                    <h2 class="project-title">Cancer Detection with Deep Learning</h2>
+                    <p class="project-paragraph">In this project, I tackle the CAMELYON16 challenge in which we have to detect cancer in 
+                        hyper-resolution scans of human tissues (up to 100,000 x 100,000 pixels). To solve the problems, I experimented with 
+                        several state-of-the-art neural network models including InceptionV3 and InceptionResnetV2). I show that we can obtain 
+                        very high performance when using a pretrained InceptionV3 network and further tuning on a subset of the image. 
+                        If you are interested,
+                        please find more details <a href="https://github.com/longluu/DL-CancerDetection-CAMELYON16">here</a>.
+                    </p>
+                    <img class="project-image" src="images/cancer_ai.png" alt="model-prediction">
+                </div>
+
+                <!-- Project 3 -->
+                <div class="carousel-item">
+                    <h2 class="project-title">Understand Human Decision-making</h2>
+                    <p class="project-paragraph">This is essentially my PhD works in which I study how humans make decisions (esp. irrational ones)
+                        using a combination of computer-controlled behavioral experiments and machine learning (with the focus on Bayesian
+                        models). This work reveals a unifying principle behind many of human irrational decisions: we tend to keep consistency
+                        across our decisions so that any subsequent decisions are biased to be consistent with the preceding ones even when it is
+                        highly irrational.
+                        If you are interested, you can read <a href="https://elifesciences.org/articles/33334">my published paper</a> or
+                        <a href="https://www.technology.org/2018/06/06/why-do-the-choices-made-today-affect-those-we-make-tomorrow/?"> this more approachable article</a> .
+                    </p>
+                    <img class="project-image" src="images/ml_decision.png" alt="conditioned-bayesian-model">
+                </div>
+            </div>
+
+            <!-- Control button -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          
-          
-          <div class="bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/in/longtluu/">LinkedIn</a>
-            <a class="footer-link" href="https://github.com/longluu">Github</a>
-            <a class="footer-link" href="https://scholar.google.com/citations?user=pzP4aU8AAAAJ&hl=en">Publication</a>
-            <p class="copyright">© 2022 Long Luu.</p>
-          </div>
+      </section>
 
-    </body>
+  <!-- Footer -->
+  <footer id="contact">
+    <a class="btn" href="mailto:thelong20.4@gmail.com">Contact me</a>
+    <div>
+        <a href="https://www.linkedin.com/in/longtluu/"><img class="footer-icon" src="images/linkedin.png" alt="linkedin"></a>
+        <a href="https://github.com/longluu"><img class="footer-icon" src="images/github.png" alt="linkedin"></a>
+        <a href="https://scholar.google.com/citations?user=pzP4aU8AAAAJ&hl=en"><img class="footer-icon" src="images/gscholar.png" alt="linkedin"></a>
+    </div>
+  </footer>      
+</body>
+
 </html>
