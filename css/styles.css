@@ -122,6 +122,7 @@ body {
 }
 
 .project-image {
+    border-radius: 1%;
     width: 60%
 }
 
