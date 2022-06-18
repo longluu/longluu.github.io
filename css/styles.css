@@ -45,7 +45,7 @@ body {
     background-color: #c4f5f5;
     color: black;
     text-align: left;
-    padding: 2% 5% 0% 0%;
+    padding: 2% 0% 0% 0%;
     margin: 0 0 5% 0    
 }
 
@@ -54,10 +54,11 @@ body {
     border-color: #fff;
     border-style: solid;
     border-width: 7px 7px 7px 0;
-    width: 98%;
+    width: 100%;
 }
 
 .bio {
+    padding: 0 7% 0 3%;
     text-align: justify;
 }
 
@@ -179,4 +180,9 @@ body {
   .footer-icon {
     margin: 0 0.5%;
     width: 40px;
+  }
+
+  .footer-icon:hover {
+    box-shadow: 2px 2px 2px 1px lightgray;
+    transform: scale(1.3);
   }
