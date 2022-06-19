@@ -64,12 +64,16 @@ body {
 
 /* Skills */
 .skill-heading {
-    color: #11999e;
+    background-color: #14bbc1;
+    border-radius: 20%;
+    color: white;
     font-size: 3.5rem;
-    margin: 7% 0 3% 0;
+    margin: 7% auto 3% auto;
+    width: 20%;
 }
 
 #skills {
+    background-color: white;
     padding: 0 15% 3% 15%;
     margin: 0 0 5% 0  
 }
@@ -114,9 +118,12 @@ body {
 }
 
 .project-heading {
-    color: #fff;
+    background-color: white;
+    border-radius: 20%;
+    color: #14bbc1;
     font-size: 3.5rem;
-    margin: 0 0 2% 0;
+    margin: 0% auto 3% auto;
+    width: 20%;    
 }
 
 .project-title {
@@ -148,24 +155,21 @@ body {
 
 /* Hobbies */
 .hobbie-heading {
-    color: #11999e;
+    background-color: #14bbc1;
+    border-radius: 20%;
+    color: white;
     font-size: 3.5rem;
-    margin: 7% 0 3% 0;
+    margin: 7% auto 3% auto;
+    width: 20%;
 }
 
 #hobbies {
     padding: 0 5% 3% 5%;
-    margin: 0 0 5% 0  
+    margin: 0 
 }
 
 .hobbie-section {
-    text-align: left;
     margin: 0 0 5% 0
-}
-
-.hobbie-title {
-    color: #11999e;
-    margin: 0 0 2% 0;
 }
 
 .hobbie-image {
@@ -219,6 +223,7 @@ body {
   }
 
   .footer-icon {
+    background-color: white;
     margin: 0 0.5%;
     width: 40px;
   }
