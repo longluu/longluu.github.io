@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background-color: #c4f5f5;
+    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
     padding: 0 2%;
 }
 
@@ -15,15 +15,15 @@
 }
 
 .nav-link {
-    color: gray;
+    color: rgb(252, 252, 128);
     font-size: 1.2rem;
     font-weight: 500;
 }
 
 .nav-link:hover {
-    background-color: #14bbc1;
+    background-image: linear-gradient(0deg, rgb(165, 45, 165), blue);
     border-radius: 20%;
-    box-shadow: 2px 2px 2px 1px lightgray;
+    box-shadow: 0 0 30px rgba(33,33,33,.2); 
     color: #fff;
     transform: scale(1.1);
 }
@@ -43,8 +43,8 @@ body {
 }
 
 #intro {
-    background-color: #c4f5f5;
-    color: black;
+    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
+    color: white;
     text-align: left;
     padding: 2% 0% 0% 0%;
     margin: 0 0 5% 0    
@@ -63,9 +63,16 @@ body {
     text-align: justify;
 }
 
+.link {
+    color: rgb(252, 252, 128);
+}
+
+.link:hover {
+    color: rgb(249, 249, 47)
+}
 /* Skills */
 .skill-heading {
-    background-color: #14bbc1;
+    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
     border-radius: 20%;
     color: white;
     font-size: 3.5rem;
@@ -85,17 +92,18 @@ body {
 }
 
 .skill-title {
-    color: #11999e;
+    background: -webkit-linear-gradient(left, rgb(165, 45, 165), blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin: 0 0 2% 0;
 }
 
 .skill-image {
-
     width:100%
 }
 
 .bold {
-    color: #11999e;
+    color: rgb(0, 0, 178);
     font-weight: 700;
 }
 
@@ -113,15 +121,14 @@ body {
 
 /* Projects */
 #projects {
-    background-color: #66bfbf;
+    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
     padding: 3% 0 5% 0;
     margin: 0 0 5% 0;
 }
 
 .project-heading {
-    background-color: white;
     border-radius: 20%;
-    color: #14bbc1;
+    color: white;
     font-size: 3.5rem;
     margin: 0% auto 3% auto;
     width: 300px;    
@@ -140,6 +147,7 @@ body {
 }
 
 .project-paragraph {
+    color: white;
     margin: auto auto 1% auto;
     text-align: justify;
     width: 50%;
@@ -156,7 +164,7 @@ body {
 
 /* Hobbies */
 .hobbie-heading {
-    background-color: #14bbc1;
+    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
     border-radius: 20%;
     color: white;
     font-size: 3.5rem;
@@ -177,11 +185,6 @@ body {
     width:100%
 }
 
-.bold {
-    color: #11999e;
-    font-weight: 700;
-}
-
 .hobbie-paragraph {
     text-align: justify;
 }
@@ -192,7 +195,7 @@ body {
 
 /* Contact */
 #contact {
-    background-color: #66bfbf;
+    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
     padding: 2% 15% 3% 15%;
 }
 
@@ -230,7 +233,7 @@ body {
   }
 
   .footer-icon:hover {
-    box-shadow: 2px 2px 2px 1px lightgray;
+    box-shadow: 0 0 30px rgba(33,33,33,.2); 
     transform: scale(1.3);
   }
 
