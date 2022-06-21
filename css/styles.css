@@ -1,13 +1,7 @@
 /* Navbar */
 .profile-image {
-    margin-right: 50%;
-    margin-top: 5%;
-    width: 40%;
-}
-
-.navbar {
-    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
-    padding: 0 2%;
+    padding: 0 0 0 10%;
+    width: 60%;
 }
 
 .nav-item {
@@ -21,7 +15,7 @@
 }
 
 .nav-link:hover {
-    background-image: linear-gradient(0deg, rgb(165, 45, 165), blue);
+    background-image: radial-gradient(circle, blue, rgb(165, 45, 165));
     border-radius: 20%;
     box-shadow: 0 0 30px rgba(33,33,33,.2); 
     color: #fff;
@@ -43,10 +37,12 @@ body {
 }
 
 #intro {
-    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
+    background-image: url('../images/digital-eye.jpg');
+    background-size: 100%;
+    background-position: 500px -50px;
     color: white;
     text-align: left;
-    padding: 2% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
     margin: 0 0 5% 0    
 }
 
@@ -61,6 +57,7 @@ body {
 .bio {
     padding: 0 7% 0 3%;
     text-align: justify;
+    color: whitesmoke
 }
 
 .link {
@@ -72,7 +69,7 @@ body {
 }
 /* Skills */
 .skill-heading {
-    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
+    background-image: radial-gradient(circle, blue, rgb(165, 45, 165));
     border-radius: 20%;
     color: white;
     font-size: 3.5rem;
@@ -92,7 +89,7 @@ body {
 }
 
 .skill-title {
-    background: -webkit-linear-gradient(left, rgb(165, 45, 165), blue);
+    background: -webkit-linear-gradient(left, blue, rgb(165, 45, 165));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0 0 2% 0;
@@ -121,7 +118,7 @@ body {
 
 /* Projects */
 #projects {
-    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
+    background-image: radial-gradient(circle, blue, rgb(165, 45, 165));
     padding: 3% 0 5% 0;
     margin: 0 0 5% 0;
 }
@@ -164,7 +161,7 @@ body {
 
 /* Hobbies */
 .hobbie-heading {
-    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
+    background-image: radial-gradient(circle, blue, rgb(165, 45, 165));
     border-radius: 20%;
     color: white;
     font-size: 3.5rem;
@@ -195,7 +192,7 @@ body {
 
 /* Contact */
 #contact {
-    background-image: linear-gradient(90deg, rgb(165, 45, 165), blue);
+    background-image: radial-gradient(circle, blue, rgb(165, 45, 165));
     padding: 2% 15% 3% 15%;
 }
 
