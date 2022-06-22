@@ -209,6 +209,7 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
             </div>
        
             <div class="carousel-inner">
@@ -309,7 +310,27 @@
                         that to test an optical system that measures blood flow. You can read more <a class="link" target="_blank" href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-3-6-1350&id=233298">paper</a>
                     </p>
                     <img class="project-image" src="images/blood-flow.png" alt="blood-flow">
-                </div>                  
+                </div> 
+
+                <!-- Project Scene classification -->
+                <div class="carousel-item">
+                    <h2 class="project-title">Compare Computer Vision and Human Vision in Scene Classification</h2>
+                    <p class="project-paragraph">
+                        In <a class="link" target="_blank" href="https://github.com/longluu/Scene-classification">this project</a>, I compare the performance 
+                        of a scene classification computer vision model that is based on low-frequency components of 
+                        amplitude spectrum (Oliva & Torralba, 2001) and human fast perception of images. I found that human perception is very different from 
+                        the model, that is, their performance relies more heavily on the phase (local) information in the image. In contrast, the gist-based 
+                        computer vision model relies mainly on the amplitude spectrum (global features) of the image.
+                    </p>
+                    <div class="row project-image">
+                        <div class="col-sm-6">
+                            <img class="gif-image" src="https://raw.githubusercontent.com/longluu/Scene-classification/master/Codes/Report%20material/sceneMorphManmadePhase.gif" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="gif-image" src="https://raw.githubusercontent.com/longluu/Scene-classification/master/Codes/Report%20material/sceneMorphNaturalPhase.gif" alt="">
+                        </div>                        
+                    </div>
+                </div>                                   
             </div>
 
             <!-- Control button -->
