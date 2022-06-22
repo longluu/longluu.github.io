@@ -208,40 +208,40 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
             </div>
        
             <div class="carousel-inner">
-                <!-- Project 1 -->
+                <!-- Project Step count -->
                 <div class="carousel-item active">
                     <h2 class="project-title">Accurate Step Count with Deep Learning</h2>
                     <p class="project-paragraph">Physical activity (PA) is globally recognized as a pillar of general health. Step count, as one measure of PA,
-                        is a well known predictor of long-term morbidity and mortality. Here I show that by using state-of-the-art neural network
-                        algorithms, I can achieve highly accurate step counts (98-99%) based on raw acceleromter data from many types of wearable and mobile devices. 
+                        is a well known predictor of long-term morbidity and mortality. However, the step count accuracy of popular consumer devices like Fitbit
+                        or Apple watch is not rigorously validated. Here by using state-of-the-art neural network
+                        algorithms, I can achieve highly accurate step counts (98-99%) from many types of wearable and mobile devices. 
                         If you are interested, please find more details <a class="link" target="_blank" href="https://www.mdpi.com/1424-8220/22/11/3989">here</a>.
                     </p>
                     <img class="project-image" src="images/personalized_model.png" alt="personalized_model">
                 </div>
 
-                <!-- Project 2 -->
+                <!-- Project Cancer detection -->
                 <div class="carousel-item">
                     <h2 class="project-title">Cancer Detection with Deep Learning</h2>
                     <p class="project-paragraph">In this project, I tackle the CAMELYON16 challenge in which we have to detect cancer in 
                         hyper-resolution scans of human tissues (up to 100,000 x 100,000 pixels). To solve the problems, I experimented with 
                         several state-of-the-art neural network models including InceptionV3 and InceptionResnetV2. I show that we can obtain 
                         very high performance when performing transfer learning with a pretrained InceptionV3 network. 
-                        If you want to learn more, feel free to read the report and the source code <a class="link" target="_blank" href="https://github.com/longluu/DL-CancerDetection-CAMELYON16">here</a>.
+                        If you want to learn more, feel free to read the report <a class="link" target="_blank" href="https://github.com/longluu/DL-CancerDetection-CAMELYON16">here</a>.
                     </p>
                     <img class="project-image" src="images/cancer_ai.png" alt="model-prediction">
                 </div>
 
-                <!-- Project 3 -->
+                <!-- Project Bayes Decision  -->
                 <div class="carousel-item">
                     <h2 class="project-title">Understand Human Decision-making</h2>
                     <p class="project-paragraph">This is essentially my PhD and Postdoctoral works in which I study how humans make decisions
                         using a combination of computer-controlled behavioral experiments and machine learning (with the focus on Bayesian
-                        models). This work reveals a unifying principle behind many of human irrational decisions: we tend to keep consistency
-                        across our decisions so that any subsequent decisions are biased to be consistent with the preceding ones even when they are
-                        highly irrational. You can read the <a class="link" target="_blank" href="https://elifesciences.org/articles/33334">technical paper</a> or 
+                        models). This work reveals a unifying principle behind many of human irrational decisions: maintaining consistency across decisions. You can read the <a class="link" target="_blank" href="https://elifesciences.org/articles/33334">technical paper</a> or 
                         <a class="link" target="_blank" href="https://www.technology.org/2018/06/06/why-do-the-choices-made-today-affect-those-we-make-tomorrow/?">non-technical article</a>
                         and play around with <a class="link" target="_blank" href="https://github.com/longluu/Machine-learning-sequential-decision">Matlab code</a>. Some of the following works are
                         <a class="link" target="_blank" href="https://par.nsf.gov/servlets/purl/10189367">here</a>, <a class="link" target="_blank" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008968">here</a>, 
@@ -251,53 +251,65 @@
                     <img class="project-image" src="images/ml_decision.png" alt="conditioned-bayesian-model">
                 </div>
 
-                <!-- Project 4 -->
+                <!-- Project styleGAN -->
                 <div class="carousel-item">
                     <h2 class="project-title">Manipulate Human Face Images with styleGAN</h2>
                     <p class="project-paragraph">
                         In this project, I explored a powerful neural network algorithms, styleGAN, which can generate synthetic human face images that look like real
-                        . Additionally, styleGAN can also change specific features of a face image (e.g. skin tone, hair
-                        color, identity). Besides demonstrating all of these impressive features of styleGAN, I also performed an extensive investigation into 
+                        (you can look at images below). Additionally, styleGAN can also change specific features of a face image (e.g. skin tone, hair
+                        color, identity). Besides demonstrating these impressive features of styleGAN, I also dived deep into 
                         the way it works using PCA technique and an advanced deep learning model, FaceNet. You can find all the details <a class="link" target="_blank" href="https://github.com/longluu/DL-styleGAN-faceForVisualExperiment">here</a>.
                     </p>
                     <img class="project-image" src="images/example_face_mixing.png" alt="face">
                 </div>    
                 
-                <!-- Project 5 -->
+                <!-- Project COVID -->
                 <div class="carousel-item">
                     <h2 class="project-title">COVID-19 Visualization and Correlational Analyses</h2>
                     <p class="project-paragraph">
                         In this project I pulled the COVID-19 data from Johns Hopkins University database which include measures such as number of cases and deaths across 
-                        the world and in the US. Then I made several visualization to draw insight into distribution as well as evolution of COVID-19 across geographical 
-                        locations and over time. In addition, I also pulled economic and health data from other sources such as World Bank, WHO and US goverment so that 
-                        I could perform correlational analyses between COVID-19 and several economic and health measures (e.g. GDP, income, health spending). All details are here 
+                        the world and in the US. Then I made several visualization and combined economic and health data from other sources such as World Bank, WHO and US goverment so that 
+                        I could gain insights into the evolution of COVID-19 and its relationships to other social and economic factors like GDP, income, health spending. All details are here 
                         <a class="link" target="_blank" href="https://github.com/longluu/Covid19-EDA-visualization">here</a>.
                     </p>
                     <img class="project-image" src="images/covid_us_map.png" alt="covid">
                 </div>   
 
-                <!-- Project 6 -->
+                <!-- Project DIC -->
                 <div class="carousel-item">
                     <h2 class="project-title">Track Object with Digital Image Correlation</h2>
                     <p class="project-paragraph">
-                        In this work, I use a popular computer vision algorithm, Digital Image Correlation, to track an object's properties over time. I demonstrate that by
+                        In this work, I use a popular computer vision algorithm, Digital Image Correlation, to track an object's properties over time. Essentially, we captured
+                        images of objects in different stages and used image processing algorithms to compare those images. I demonstrate that by
                         using an advanced interpolation algorithms, we can potentially increase the accuracy of the algorithm up to 100x. This algorithm has found its way into
-                        a broad range of applications from mechanical and civil engineering to biomedical field. You can read more about that in this <a class="link" target="_blank" href="https://minhpvo.github.io/index_files/Papers/OL_11.pdf">paper</a>.
+                        a broad range of engineering applications. You can read more about that in this <a class="link" target="_blank" href="https://minhpvo.github.io/index_files/Papers/OL_11.pdf">paper</a>.
                     </p>
                     <img class="project-image" src="images/dic.PNG" alt="dic">
                 </div>    
                 
-                <!-- Project 7 -->
+                <!-- Project Blood Oxygen -->
                 <div class="carousel-item">
                     <h2 class="project-title">Measure Retinal Blood Oxygen with Optical Imaging</h2>
                     <p class="project-paragraph">
-                        This is a project in collaboration with Johns Hopkins University. The goal is to develop an optical imaging system to capture images of patients' retina
-                        and employ advanced image processing algorithms to compute the blood oxygen from retinal vessels. In addition, I also developed a friendly Graphical User Interface
+                        This is a project in collaboration with Johns Hopkins University in which we want to track the progression of diabetes in a non-invasive way.
+                        Specifically, we developed an optical imaging system to capture images of patients' retina
+                        and employed advanced image processing algorithms to compute the blood oxygen from retinal vessels. In addition, I also developed a friendly Graphical User Interface
                         so that the doctors can easily use the software for their purposes. You can find more details in this <a class="link" target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312297/">paper</a>.
                     </p>
-                    <img class="project-image" src="images/blood_oxygen.jpg" alt="dic">
-                </div>                                
-                
+                    <img class="project-image" src="images/blood_oxygen.jpg" alt="blood-oxygen">
+                </div>  
+
+                <!-- Project Microfluidics -->
+                <div class="carousel-item">
+                    <h2 class="project-title">Validate Blood Flow Measurement Method</h2>
+                    <p class="project-paragraph">
+                        In this project, I worked on developing and validating optical imaging methods that can non-invasively measure the blood flow in human
+                        blood vessels. One challenge to the problem is to fabricate models of human blood vessels for testing the imaging methods. Here I used
+                        an advanced laser micromachining system to fabricate models of very small blood vessels (as small as the smallest human hair) and used
+                        that to test an optical system that measures blood flow. You can read more <a class="link" target="_blank" href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-3-6-1350&id=233298">paper</a>
+                    </p>
+                    <img class="project-image" src="images/blood-flow.png" alt="blood-flow">
+                </div>                  
             </div>
 
             <!-- Control button -->

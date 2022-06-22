@@ -145,18 +145,20 @@ body {
 
 .project-paragraph {
     color: white;
-    margin: auto auto 1% auto;
+    margin: auto auto 3% auto;
     text-align: justify;
-    width: 50%;
+    width: 60%;
 }
 
 .carousel-indicators {
-    top: 102%
+    top: 16rem
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     height: 5rem;
     width: 5rem;
+    position: absolute;
+    top: 400px;
 }
 
 /* Hobbies */
